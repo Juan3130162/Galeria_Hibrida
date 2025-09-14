@@ -1,0 +1,7 @@
+{
+  "name": "GaleriaHibrida",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
