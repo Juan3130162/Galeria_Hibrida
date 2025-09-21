@@ -1,0 +1,52 @@
+ion-fab-button ion-icon[name="camera"] {
+  color: #cfffc6;   
+  font-size: 2rem;   
+}
+ion-title {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #3a7bd5;
+    text-shadow: 2px 2px 8px #cfffc6;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #cfffc6 0%, #3a7bd5 100%);
+    padding: 0.5rem 0;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+ion-content {
+    background: linear-gradient(135deg, #3a7bd5 0%, #cfffc6 100%);
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(58, 123, 213, 0.15);
+}
+
+ion-grid {
+    padding: 1rem;
+}
+
+ion-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+ion-img {
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(58, 123, 213, 0.18);
+    border: 3px solid #cfffc6;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 24px rgba(58, 123, 213, 0.25);
+        border-color: #3a7bd5;
+    }
+}
